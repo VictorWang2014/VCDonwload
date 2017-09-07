@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966BA6D61F5CE80600CC1CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA6D51F5CE80600CC1CD6 /* main.m */; };
+		966BA6D91F5CE80600CC1CD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA6D81F5CE80600CC1CD6 /* AppDelegate.m */; };
+		966BA6DC1F5CE80600CC1CD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA6DB1F5CE80600CC1CD6 /* ViewController.m */; };
+		966BA6DF1F5CE80600CC1CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966BA6DD1F5CE80600CC1CD6 /* Main.storyboard */; };
+		966BA6E21F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 966BA6E01F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodeld */; };
+		966BA6E41F5CE80600CC1CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966BA6E31F5CE80600CC1CD6 /* Assets.xcassets */; };
+		966BA6E71F5CE80600CC1CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966BA6E51F5CE80600CC1CD6 /* LaunchScreen.storyboard */; };
+		966BA6F21F5CE80600CC1CD6 /* VCDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA6F11F5CE80600CC1CD6 /* VCDownloadManagerTests.m */; };
+		966BA6FD1F5CE80600CC1CD6 /* VCDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA6FC1F5CE80600CC1CD6 /* VCDownloadManagerUITests.m */; };
+		966BA70C1F5CE83700CC1CD6 /* VCDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA70B1F5CE83700CC1CD6 /* VCDownloadManager.m */; };
+		966BA70F1F5CF45300CC1CD6 /* VCDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA70E1F5CF45300CC1CD6 /* VCDownloadItem.m */; };
+		966BA7151F5D1CDC00CC1CD6 /* VCDownloadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA7141F5D1CDC00CC1CD6 /* VCDownloadFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		966BA6EE1F5CE80600CC1CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966BA6C91F5CE80600CC1CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966BA6D01F5CE80600CC1CD6;
+			remoteInfo = VCDownloadManager;
+		};
+		966BA6F91F5CE80600CC1CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966BA6C91F5CE80600CC1CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966BA6D01F5CE80600CC1CD6;
+			remoteInfo = VCDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		966BA6D11F5CE80600CC1CD6 /* VCDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966BA6D51F5CE80600CC1CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		966BA6D71F5CE80600CC1CD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		966BA6D81F5CE80600CC1CD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		966BA6DA1F5CE80600CC1CD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		966BA6DB1F5CE80600CC1CD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		966BA6DE1F5CE80600CC1CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		966BA6E11F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VCDownloadManager.xcdatamodel; sourceTree = "<group>"; };
+		966BA6E31F5CE80600CC1CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		966BA6E61F5CE80600CC1CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		966BA6E81F5CE80600CC1CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966BA6ED1F5CE80600CC1CD6 /* VCDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966BA6F11F5CE80600CC1CD6 /* VCDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCDownloadManagerTests.m; sourceTree = "<group>"; };
+		966BA6F31F5CE80600CC1CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966BA6F81F5CE80600CC1CD6 /* VCDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966BA6FC1F5CE80600CC1CD6 /* VCDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCDownloadManagerUITests.m; sourceTree = "<group>"; };
+		966BA6FE1F5CE80600CC1CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966BA70A1F5CE83700CC1CD6 /* VCDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDownloadManager.h; sourceTree = "<group>"; };
+		966BA70B1F5CE83700CC1CD6 /* VCDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDownloadManager.m; sourceTree = "<group>"; };
+		966BA70D1F5CF45300CC1CD6 /* VCDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDownloadItem.h; sourceTree = "<group>"; };
+		966BA70E1F5CF45300CC1CD6 /* VCDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDownloadItem.m; sourceTree = "<group>"; };
+		966BA7131F5D1CDC00CC1CD6 /* VCDownloadFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDownloadFileManager.h; sourceTree = "<group>"; };
+		966BA7141F5D1CDC00CC1CD6 /* VCDownloadFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDownloadFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966BA6CE1F5CE80600CC1CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966BA6EA1F5CE80600CC1CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966BA6F51F5CE80600CC1CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966BA6C81F5CE80600CC1CD6 = {
+			isa = PBXGroup;
+			children = (
+				966BA6D31F5CE80600CC1CD6 /* VCDownloadManager */,
+				966BA6F01F5CE80600CC1CD6 /* VCDownloadManagerTests */,
+				966BA6FB1F5CE80600CC1CD6 /* VCDownloadManagerUITests */,
+				966BA6D21F5CE80600CC1CD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966BA6D21F5CE80600CC1CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966BA6D11F5CE80600CC1CD6 /* VCDownloadManager.app */,
+				966BA6ED1F5CE80600CC1CD6 /* VCDownloadManagerTests.xctest */,
+				966BA6F81F5CE80600CC1CD6 /* VCDownloadManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966BA6D31F5CE80600CC1CD6 /* VCDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				966BA6D71F5CE80600CC1CD6 /* AppDelegate.h */,
+				966BA6D81F5CE80600CC1CD6 /* AppDelegate.m */,
+				966BA6DA1F5CE80600CC1CD6 /* ViewController.h */,
+				966BA6DB1F5CE80600CC1CD6 /* ViewController.m */,
+				966BA70A1F5CE83700CC1CD6 /* VCDownloadManager.h */,
+				966BA70B1F5CE83700CC1CD6 /* VCDownloadManager.m */,
+				966BA70D1F5CF45300CC1CD6 /* VCDownloadItem.h */,
+				966BA70E1F5CF45300CC1CD6 /* VCDownloadItem.m */,
+				966BA7131F5D1CDC00CC1CD6 /* VCDownloadFileManager.h */,
+				966BA7141F5D1CDC00CC1CD6 /* VCDownloadFileManager.m */,
+				966BA6DD1F5CE80600CC1CD6 /* Main.storyboard */,
+				966BA6E31F5CE80600CC1CD6 /* Assets.xcassets */,
+				966BA6E51F5CE80600CC1CD6 /* LaunchScreen.storyboard */,
+				966BA6E81F5CE80600CC1CD6 /* Info.plist */,
+				966BA6E01F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodeld */,
+				966BA6D41F5CE80600CC1CD6 /* Supporting Files */,
+			);
+			path = VCDownloadManager;
+			sourceTree = "<group>";
+		};
+		966BA6D41F5CE80600CC1CD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				966BA6D51F5CE80600CC1CD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		966BA6F01F5CE80600CC1CD6 /* VCDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				966BA6F11F5CE80600CC1CD6 /* VCDownloadManagerTests.m */,
+				966BA6F31F5CE80600CC1CD6 /* Info.plist */,
+			);
+			path = VCDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		966BA6FB1F5CE80600CC1CD6 /* VCDownloadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				966BA6FC1F5CE80600CC1CD6 /* VCDownloadManagerUITests.m */,
+				966BA6FE1F5CE80600CC1CD6 /* Info.plist */,
+			);
+			path = VCDownloadManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966BA6D01F5CE80600CC1CD6 /* VCDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966BA7011F5CE80600CC1CD6 /* Build configuration list for PBXNativeTarget "VCDownloadManager" */;
+			buildPhases = (
+				966BA6CD1F5CE80600CC1CD6 /* Sources */,
+				966BA6CE1F5CE80600CC1CD6 /* Frameworks */,
+				966BA6CF1F5CE80600CC1CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCDownloadManager;
+			productName = VCDownloadManager;
+			productReference = 966BA6D11F5CE80600CC1CD6 /* VCDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		966BA6EC1F5CE80600CC1CD6 /* VCDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966BA7041F5CE80600CC1CD6 /* Build configuration list for PBXNativeTarget "VCDownloadManagerTests" */;
+			buildPhases = (
+				966BA6E91F5CE80600CC1CD6 /* Sources */,
+				966BA6EA1F5CE80600CC1CD6 /* Frameworks */,
+				966BA6EB1F5CE80600CC1CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966BA6EF1F5CE80600CC1CD6 /* PBXTargetDependency */,
+			);
+			name = VCDownloadManagerTests;
+			productName = VCDownloadManagerTests;
+			productReference = 966BA6ED1F5CE80600CC1CD6 /* VCDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		966BA6F71F5CE80600CC1CD6 /* VCDownloadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966BA7071F5CE80600CC1CD6 /* Build configuration list for PBXNativeTarget "VCDownloadManagerUITests" */;
+			buildPhases = (
+				966BA6F41F5CE80600CC1CD6 /* Sources */,
+				966BA6F51F5CE80600CC1CD6 /* Frameworks */,
+				966BA6F61F5CE80600CC1CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966BA6FA1F5CE80600CC1CD6 /* PBXTargetDependency */,
+			);
+			name = VCDownloadManagerUITests;
+			productName = VCDownloadManagerUITests;
+			productReference = 966BA6F81F5CE80600CC1CD6 /* VCDownloadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966BA6C91F5CE80600CC1CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wangmingquan;
+				TargetAttributes = {
+					966BA6D01F5CE80600CC1CD6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 59B8QAXTFE;
+						ProvisioningStyle = Automatic;
+					};
+					966BA6EC1F5CE80600CC1CD6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 966BA6D01F5CE80600CC1CD6;
+					};
+					966BA6F71F5CE80600CC1CD6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 966BA6D01F5CE80600CC1CD6;
+					};
+				};
+			};
+			buildConfigurationList = 966BA6CC1F5CE80600CC1CD6 /* Build configuration list for PBXProject "VCDownloadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966BA6C81F5CE80600CC1CD6;
+			productRefGroup = 966BA6D21F5CE80600CC1CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966BA6D01F5CE80600CC1CD6 /* VCDownloadManager */,
+				966BA6EC1F5CE80600CC1CD6 /* VCDownloadManagerTests */,
+				966BA6F71F5CE80600CC1CD6 /* VCDownloadManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966BA6CF1F5CE80600CC1CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966BA6E71F5CE80600CC1CD6 /* LaunchScreen.storyboard in Resources */,
+				966BA6E41F5CE80600CC1CD6 /* Assets.xcassets in Resources */,
+				966BA6DF1F5CE80600CC1CD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966BA6EB1F5CE80600CC1CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966BA6F61F5CE80600CC1CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966BA6CD1F5CE80600CC1CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966BA7151F5D1CDC00CC1CD6 /* VCDownloadFileManager.m in Sources */,
+				966BA6DC1F5CE80600CC1CD6 /* ViewController.m in Sources */,
+				966BA70C1F5CE83700CC1CD6 /* VCDownloadManager.m in Sources */,
+				966BA6D91F5CE80600CC1CD6 /* AppDelegate.m in Sources */,
+				966BA6E21F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodeld in Sources */,
+				966BA6D61F5CE80600CC1CD6 /* main.m in Sources */,
+				966BA70F1F5CF45300CC1CD6 /* VCDownloadItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966BA6E91F5CE80600CC1CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966BA6F21F5CE80600CC1CD6 /* VCDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966BA6F41F5CE80600CC1CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966BA6FD1F5CE80600CC1CD6 /* VCDownloadManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		966BA6EF1F5CE80600CC1CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966BA6D01F5CE80600CC1CD6 /* VCDownloadManager */;
+			targetProxy = 966BA6EE1F5CE80600CC1CD6 /* PBXContainerItemProxy */;
+		};
+		966BA6FA1F5CE80600CC1CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966BA6D01F5CE80600CC1CD6 /* VCDownloadManager */;
+			targetProxy = 966BA6F91F5CE80600CC1CD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		966BA6DD1F5CE80600CC1CD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966BA6DE1F5CE80600CC1CD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		966BA6E51F5CE80600CC1CD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966BA6E61F5CE80600CC1CD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		966BA6FF1F5CE80600CC1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		966BA7001F5CE80600CC1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966BA7021F5CE80600CC1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59B8QAXTFE;
+				INFOPLIST_FILE = VCDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gw.dzhiphone622.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		966BA7031F5CE80600CC1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59B8QAXTFE;
+				INFOPLIST_FILE = VCDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gw.dzhiphone622.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		966BA7051F5CE80600CC1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VCDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VCDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VCDownloadManager.app/VCDownloadManager";
+			};
+			name = Debug;
+		};
+		966BA7061F5CE80600CC1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VCDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VCDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VCDownloadManager.app/VCDownloadManager";
+			};
+			name = Release;
+		};
+		966BA7081F5CE80600CC1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VCDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VCDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VCDownloadManager;
+			};
+			name = Debug;
+		};
+		966BA7091F5CE80600CC1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VCDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VCDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VCDownloadManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966BA6CC1F5CE80600CC1CD6 /* Build configuration list for PBXProject "VCDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966BA6FF1F5CE80600CC1CD6 /* Debug */,
+				966BA7001F5CE80600CC1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966BA7011F5CE80600CC1CD6 /* Build configuration list for PBXNativeTarget "VCDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966BA7021F5CE80600CC1CD6 /* Debug */,
+				966BA7031F5CE80600CC1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966BA7041F5CE80600CC1CD6 /* Build configuration list for PBXNativeTarget "VCDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966BA7051F5CE80600CC1CD6 /* Debug */,
+				966BA7061F5CE80600CC1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966BA7071F5CE80600CC1CD6 /* Build configuration list for PBXNativeTarget "VCDownloadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966BA7081F5CE80600CC1CD6 /* Debug */,
+				966BA7091F5CE80600CC1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		966BA6E01F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				966BA6E11F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodel */,
+			);
+			currentVersion = 966BA6E11F5CE80600CC1CD6 /* VCDownloadManager.xcdatamodel */;
+			path = VCDownloadManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 966BA6C91F5CE80600CC1CD6 /* Project object */;
+}
